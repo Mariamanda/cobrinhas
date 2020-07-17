@@ -56,12 +56,6 @@ let newHead = {
 
     snake.unshift(newHead);
 
-}function iniciarJogo(){
-    criarBG();
-    criarCobrinha();
-
-    let snakeX = snake[0].x;
-    let snakeY = snake[0].y;
 }
 
 let jogo = setInterval(iniciarJogo, 100);
